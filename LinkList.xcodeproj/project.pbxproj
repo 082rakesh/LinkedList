@@ -14,6 +14,8 @@
 		E1E9DAA11BA8208E00DE7C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E9DAA01BA8208E00DE7C26 /* Images.xcassets */; };
 		E1E9DAA41BA8208E00DE7C26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1E9DAA21BA8208E00DE7C26 /* LaunchScreen.xib */; };
 		E1E9DAB01BA8208E00DE7C26 /* LinkListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9DAAF1BA8208E00DE7C26 /* LinkListTests.m */; };
+		E1E9DABE1BA820DD00DE7C26 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9DABB1BA820DD00DE7C26 /* Node.m */; };
+		E1E9DABF1BA820DD00DE7C26 /* RMLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E9DABD1BA820DD00DE7C26 /* RMLinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E1E9DAA91BA8208E00DE7C26 /* LinkListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E9DAAE1BA8208E00DE7C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E9DAAF1BA8208E00DE7C26 /* LinkListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListTests.m; sourceTree = "<group>"; };
+		E1E9DABA1BA820DD00DE7C26 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E1E9DABB1BA820DD00DE7C26 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		E1E9DABC1BA820DD00DE7C26 /* RMLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLinkedList.h; sourceTree = "<group>"; };
+		E1E9DABD1BA820DD00DE7C26 /* RMLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		E1E9DA921BA8208E00DE7C26 /* LinkList */ = {
 			isa = PBXGroup;
 			children = (
+				E1E9DAB91BA820B800DE7C26 /* LinkList */,
 				E1E9DA971BA8208E00DE7C26 /* AppDelegate.h */,
 				E1E9DA981BA8208E00DE7C26 /* AppDelegate.m */,
 				E1E9DA9A1BA8208E00DE7C26 /* ViewController.h */,
@@ -117,6 +124,17 @@
 				E1E9DAAE1BA8208E00DE7C26 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1E9DAB91BA820B800DE7C26 /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9DABA1BA820DD00DE7C26 /* Node.h */,
+				E1E9DABB1BA820DD00DE7C26 /* Node.m */,
+				E1E9DABC1BA820DD00DE7C26 /* RMLinkedList.h */,
+				E1E9DABD1BA820DD00DE7C26 /* RMLinkedList.m */,
+			);
+			name = LinkList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +239,9 @@
 			files = (
 				E1E9DA9C1BA8208E00DE7C26 /* ViewController.m in Sources */,
 				E1E9DA991BA8208E00DE7C26 /* AppDelegate.m in Sources */,
+				E1E9DABF1BA820DD00DE7C26 /* RMLinkedList.m in Sources */,
 				E1E9DA961BA8208E00DE7C26 /* main.m in Sources */,
+				E1E9DABE1BA820DD00DE7C26 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
